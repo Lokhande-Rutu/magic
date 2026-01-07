@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Courier New", monospace;
+}
+
+#terminal {
+    width: 280px;
+    color: #00ff00;
+}
+
+#screen {
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1.4;
+    text-shadow: 0 0 6px #00ff00;
+    margin-bottom: 10px;
+}
+
+button {
+    background: black;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 6px 14px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+button:active {
+    background: #00ff00;
+    color: black;
+}
